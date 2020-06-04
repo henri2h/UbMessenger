@@ -883,13 +883,13 @@
     "@sentry/utils" "5.15.4"
     tslib "^1.9.3"
 
-"@sentry/integrations@^5.15.4":
-  version "5.15.4"
-  resolved "https://registry.yarnpkg.com/@sentry/integrations/-/integrations-5.15.4.tgz#c650ee5589d8234de7795b3e8f71c5d54603a103"
-  integrity sha512-GaEVQf4R+WBJvTOGptOHIFSylnH1JAvBQZ7c45jGIDBp+upqzeI67KD+HoM4sSNT2Y2i8DLTJCWibe34knz5Kw==
+"@sentry/integrations@^5.16.1":
+  version "5.16.1"
+  resolved "https://registry.yarnpkg.com/@sentry/integrations/-/integrations-5.16.1.tgz#fc66cd0ad2df9024e16c1bca7dcb64e4819b27b2"
+  integrity sha512-RwxLZN3qSH8v8HrU5aUGh37XxiAMzIQ8rAwd6XlPelixpsvbIAUeIxhutKeBz1xn5ylhMg62GkA9IJBu3mKRZg==
   dependencies:
-    "@sentry/types" "5.15.4"
-    "@sentry/utils" "5.15.4"
+    "@sentry/types" "5.16.1"
+    "@sentry/utils" "5.16.1"
     tslib "^1.9.3"
 
 "@sentry/minimal@5.15.4":
@@ -906,12 +906,25 @@
   resolved "https://registry.yarnpkg.com/@sentry/types/-/types-5.15.4.tgz#37f30e35b06e8e12ad1101f1beec3e9b88ca1aab"
   integrity sha512-quPHPpeAuwID48HLPmqBiyXE3xEiZLZ5D3CEbU3c3YuvvAg8qmfOOTI6z4Z3Eedi7flvYpnx3n7N3dXIEz30Eg==
 
+"@sentry/types@5.16.1":
+  version "5.16.1"
+  resolved "https://registry.yarnpkg.com/@sentry/types/-/types-5.16.1.tgz#ba69dbf096d121b4197fdd54c35ac941b53d0b6a"
+  integrity sha512-uERNhBdsiWvWG7qTC9QVsvFmOSL8rFfy8usEXeH3l4oCQao9TvGUvXJv6gRfiWmoiJZ1A0608Lj15CORygdbng==
+
 "@sentry/utils@5.15.4":
   version "5.15.4"
   resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-5.15.4.tgz#02865ab3c9b745656cea0ab183767ec26c96f6e6"
   integrity sha512-lO8SLBjrUDGADl0LOkd55R5oL510d/1SaI08/IBHZCxCUwI4TiYo5EPECq8mrj3XGfgCyq9osw33bymRlIDuSQ==
   dependencies:
     "@sentry/types" "5.15.4"
+    tslib "^1.9.3"
+
+"@sentry/utils@5.16.1":
+  version "5.16.1"
+  resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-5.16.1.tgz#c663858ab04bbb0cba6660fb37a4ccdb30cc2ec8"
+  integrity sha512-hn2jTc6ZH1lXGij7yqkV6cGhEYxsdjqB5P4MjfrRHB5bk5opY9R89bsAhs1rpanTdwv6Ul0ieR1z18gdIgUf0g==
+  dependencies:
+    "@sentry/types" "5.16.1"
     tslib "^1.9.3"
 
 "@soda/friendly-errors-webpack-plugin@^1.7.1":
